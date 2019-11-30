@@ -33,6 +33,7 @@ let init = app => {
           ~maximized=false,
           ~vsync=Vsync.Immediate,
           ~icon=Some("logo.png"),
+          ~titlebarStyle=WindowStyles.Transparent,
           (),
         ),
       app,
